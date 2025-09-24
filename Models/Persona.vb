@@ -39,6 +39,11 @@ Public Class Persona
         Me.Edad = edad
     End Sub
 
+    Public Sub New(nombre As String, apellido As String)
+        _nombre = nombre
+        _apellido = apellido
+    End Sub
+
     Public Sub New(nombre As String, apellido As String, edad As Integer)
         Me.Nombre = nombre
         Me.Apellido = apellido
