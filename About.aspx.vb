@@ -9,5 +9,6 @@
         persona.Nombre = txt_nombre.Text
         persona.Apellido = txt_apellido.Text
         lbl_mensaje.Text = persona.Nombre + " " + persona.Apellido
+
     End Sub
 End Class
